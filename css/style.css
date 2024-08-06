@@ -1,0 +1,21 @@
+:root{
+    --background-color:#A1A1A1;
+}
+
+.body{
+    background: --background-color;
+}
+
+
+
+.header {
+    position: absolute;
+    width: 700px;
+    height: 52px;
+    left: 80px;
+    top: 5px;
+}
+/* .header-img{
+    width: 50%;
+    height: 50%;
+} */
