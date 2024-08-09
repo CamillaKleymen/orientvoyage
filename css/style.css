@@ -8,11 +8,12 @@
 }
 
 .body{
-    background: --background-color;
+    background-image: url('images/cover-uzb.png');
 }
 .header{
     position: absolute;
 }
+
 .navbar-nav .nav-link.active {
     color: var(--text-blue-solid);
   }
@@ -39,7 +40,7 @@
   height: 500px;
 }
 
-.cover-uzb{
+/* .cover-uzb{
     position: absolute;
     width: 45%;
     height: 100%;
@@ -47,7 +48,7 @@
     right: 0;
     z-index: -1;
     text-align: center;
-}
+} */
 
 .uzb-cover h1{
     color:var(--text-white);
@@ -111,4 +112,18 @@
 .footer.container-fluid{
     background-color: var(--background-color-left);
     height: 130px;
+}
+
+.round-button{
+    background-color: #F69F00; 
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 1.2em; 
+    cursor: pointer; 
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+    margin-left: 50px;
+    margin-top: 50px;
 }
