@@ -5,6 +5,7 @@
     --text-white:#FFFFFF;
     --background-color-left:#133875;
     --text-orange:#F69F00;
+    --benefit-color:#EDF2F9;
 }
 
 /* body{
@@ -122,16 +123,6 @@
     max-width: 15px;
 }
 
-.workers {
-    position: absolute;
-    width: 450px;
-    height: auto;
-    margin-bottom: 0;
-    margin: 50px;
-    margin-top: 220px;
-    z-index: 1;
-    
-}
 
 .xor{
     position: absolute;
@@ -169,4 +160,96 @@
     transition: background-color 0.3s ease; 
     margin-left: 50px;
     margin-top: 50px;
+}
+
+.blue-button{
+    background-color: #133875; 
+    color: white; 
+    border: none; 
+    padding: 5px; 
+    font-size: 18px; 
+    cursor: pointer; 
+    border-radius: 50px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+.benefit{
+    background-color:var(--benefit-color);
+    padding: 60px; 
+    height: 450px;
+    margin: 0;
+}
+
+
+.statistics{
+    position: absolute;
+    /* bottom: 20px; */
+    /* left: 0; */
+    display: flex;
+    width: 500px;
+    height: 120px;
+    /* justify-content: center;  */
+    background-image: url(../images/workers.png);
+    color: white;
+    /* margin-bottom: 20px;  */
+    margin-left: 25px;
+    margin-top: 230px;
+}
+
+
+
+/* .statistics{ 
+    position: absolute;
+    background-color:transparent;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    width: 90%;
+    margin-left: 30px;
+}
+
+.choy{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+}
+
+.workers {
+    position: relative;
+    width: 500px;
+    height: 120px;
+    margin-top: 240px;
+    margin-left: 2px;
+    z-index: 1;
+    
+/* }  */
+
+
+/* .statistics span {
+    color:#FFFFFF;
+    font-size: 18px;
+    /* margin-top: 210px; */
+    /* display: block; */
+    /* margin-left: 50px; */
+    /* z-index: 10; */
+/* } */
+/* .statistics p {
+    margin: 0;
+    color:#FFFFFF;
+    z-index: 10;
+}  */ 
+
+
+.tours{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 10px;
+    background-image: url(../images/workers.png);
+    color: white;
+    /* margin-left: 25px; 
+    margin-top: 0px;  */
 }
